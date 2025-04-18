@@ -1,0 +1,189 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #00578A;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.login-box, .social-login {
+  flex: 1;
+  padding: 20px;
+}
+
+.login-box {
+  position: relative;
+  border-right: 1px solid #ddd;
+}
+
+h2 {
+  margin-bottom: 20px;
+  
+  color: #2980b9;
+}
+
+.close-button {
+  position: absolute;
+  top: -20px; 
+  right: -410px; 
+  cursor: pointer;
+  font-size: 30px;
+  color: #2980b9;
+  text-align: center; 
+  line-height: 30px;
+
+}
+
+form input[type="text"],
+form input[type="password"],
+.openid-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+button {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+.forgot-password {
+  font-size: 12px;
+  color: #666;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+.form-actions {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.checkboxes label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-style: oblique;
+  color: #666;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.social-button {
+  background-color: #ddd;
+  color: #333;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 5px;
+}
+
+.social-button i {
+  margin-right: 5px;
+}
+
+.social-button:hover {
+  background-color: #ccc;
+}
+
+.openid-container {
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.openid input[type="text"] {
+  flex: 1;
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.openid button {
+  background-color: #2980b9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+
+
+.popup {
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+}
+
+
+
+.register-now-container {
+  width: 50%;
+ position:absolute;
+ text-align: center;
+  margin-top: 320px;
+}
+
+.register-now {
+  font-size: 15px;
+  color: #666;
+}
+
+.register-now a {
+  text-decoration: none;
+  color: #2980b9;
+}
